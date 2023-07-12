@@ -8,7 +8,7 @@ import (
 	"runtime"
 	"strings"
 
-	fileutil "github.com/projectdiscovery/utils/file"
+	fileutil "github.com/boss-net/goutils/file"
 )
 
 const (

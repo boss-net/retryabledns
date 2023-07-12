@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"net/http"
 
-	retryablehttp "github.com/projectdiscovery/retryablehttp-go"
+	retryablehttp "github.com/boss-net/retryablehttp-go"
 )
 
 type Options struct {

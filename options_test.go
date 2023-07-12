@@ -4,7 +4,7 @@ import (
 	"net"
 	"testing"
 
-	stringsutil "github.com/projectdiscovery/utils/strings"
+	stringsutil "github.com/boss-net/goutils/strings"
 	"github.com/stretchr/testify/require"
 )
 

@@ -8,8 +8,8 @@ import (
 	"io"
 	"net/http"
 
+	"github.com/boss-net/retryablehttp-go"
 	"github.com/miekg/dns"
-	"github.com/projectdiscovery/retryablehttp-go"
 )
 
 type Client struct {
