@@ -14,11 +14,11 @@ import (
 	"time"
 
 	"github.com/miekg/dns"
-	"github.com/projectdiscovery/retryabledns/doh"
-	"github.com/projectdiscovery/retryabledns/hostsfile"
-	"github.com/projectdiscovery/retryablehttp-go"
-	iputil "github.com/projectdiscovery/utils/ip"
-	sliceutil "github.com/projectdiscovery/utils/slice"
+	"github.com/boss-net/retryabledns/doh"
+	"github.com/boss-net/retryabledns/hostsfile"
+	"github.com/boss-net/retryablehttp-go"
+	iputil "github.com/boss-net/goutils/ip"
+	sliceutil "github.com/boss-net/goutils/slice"
 )
 
 var internalRangeCheckerInstance *internalRangeChecker
