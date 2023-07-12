@@ -10,7 +10,7 @@ Based on `miekg/dns` and freely inspired by `bogdanovich/dns_resolver`.
 ### Using *go get*
 
 ```
-$ go get github.com/projectdiscovery/retryabledns
+$ go get github.com/boss-net/retryabledns
 ```
 
 After this command *retryabledns* library source will be in your $GOPATH
@@ -24,7 +24,7 @@ package main
 import (
     "log"
 
-    "github.com/projectdiscovery/retryabledns"
+    "github.com/boss-net/retryabledns"
     "github.com/miekg/dns"
 )
 
